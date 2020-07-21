@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="628.0" prefWidth="540.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.GlasacIzborOdbornikaForm">
+   <children>
+      <TableView fx:id="userTable" layoutX="7.0" layoutY="231.0" prefHeight="356.0" prefWidth="528.0">
+        <columns>
+            <TableColumn fx:id="izaberi" prefWidth="50.0" text="Izaberi" />
+          <TableColumn fx:id="ime" prefWidth="150.0" text="Ime" />
+          <TableColumn fx:id="prezime" prefWidth="150.0" text="Prezime" />
+            <TableColumn fx:id="stranka" prefWidth="250.0" text="Stranka" />
+        </columns>
+      </TableView>
+      <Button layoutX="492.0" layoutY="587.0" mnemonicParsing="false" onAction="#dalje" text="Dalje" />
+      <TableView fx:id="userTable1" layoutX="7.0" layoutY="24.0" prefHeight="200.0" prefWidth="528.0">
+        <columns>
+          <TableColumn fx:id="izaberi1" prefWidth="49.0" text="izaberi" />
+          <TableColumn fx:id="naziv1" prefWidth="478.0" text="Naziv politicke partije" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

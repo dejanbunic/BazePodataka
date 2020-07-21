@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="421.0" prefWidth="713.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.IzmjeniOpstinuForm">
+   <children>
+      <TableView fx:id="userTable" layoutX="13.0" layoutY="14.0" prefHeight="341.0" prefWidth="688.0">
+        <columns>
+          <TableColumn fx:id="opstina" prefWidth="84.0" text="Naziv opstine" />
+          <TableColumn fx:id="grad" prefWidth="82.0" text="Naziv grada" />
+            <TableColumn fx:id="jedinicaEntiteta" prefWidth="160.0" text="Izborne jedinice entiteta" />
+            <TableColumn fx:id="jedinicaDrzave" prefWidth="149.0" text="Izborna jedinica drzave" />
+            <TableColumn fx:id="entitet" prefWidth="97.0" text="Naziv Entiteta" />
+            <TableColumn fx:id="drzava" prefWidth="115.0" text="Naziv Drzave" />
+        </columns>
+      </TableView>
+      <Button layoutX="346.0" layoutY="361.0" mnemonicParsing="false" prefHeight="25.0" onAction="#izmjeni" prefWidth="64.0" text="Izmjeni" />
+      <Button layoutX="434.0" layoutY="361.0" mnemonicParsing="false" onAction="#obrisi" prefHeight="25.0" prefWidth="64.0" text="Obrisi" />
+      <Button layoutX="518.0" layoutY="361.0" mnemonicParsing="false"  onAction="#odustani"  text="Odustani" />
+   </children>
+</AnchorPane>

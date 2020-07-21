@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="144.0" prefWidth="251.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.GreskaLoginForm">
+   <children>
+      <Text layoutX="17.0" layoutY="53.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Greska pri unosu parametara!!!">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+      <Button onAction="#login1" layoutX="99.0" layoutY="78.0" mnemonicParsing="false" text="Potvrdi" />
+   </children>
+</AnchorPane>

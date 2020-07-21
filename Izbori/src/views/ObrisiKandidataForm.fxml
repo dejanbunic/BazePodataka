@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="575.0" prefWidth="579.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.ObrisiKandidataForm">
+   <children>
+      <TableView fx:id="userTable1" layoutX="14.0" layoutY="46.0" prefHeight="225.0" prefWidth="550.0">
+        <columns>
+            <TableColumn fx:id="ime1" prefWidth="100.0" text="Ime" />
+            <TableColumn fx:id="prezime1" prefWidth="100.0" text="Prezime" />
+            <TableColumn fx:id="politickaPartija1" prefWidth="150.0" text="Politicka partija" />
+            <TableColumn fx:id="datumRodjenja1" prefWidth="100.0" text="Datum rodjenja" />
+            <TableColumn fx:id="mjestoRodjenja1" prefWidth="100.0" text="Mjesto rodjenja" />
+        </columns>
+      </TableView>
+      <TableView fx:id="userTable2" layoutX="14.0" layoutY="305.0" prefHeight="225.0" prefWidth="550.0">
+        <columns>
+            <TableColumn fx:id="ime2" prefWidth="100.0" text="Ime" />
+            <TableColumn fx:id="prezime2" prefWidth="100.0" text="Prezime" />
+            <TableColumn fx:id="politickaPartija2" prefWidth="150.0" text="Politicka partija" />
+            <TableColumn fx:id="datumRodjenja2" prefWidth="100.0" text="Datum rodjenja" />
+            <TableColumn fx:id="mjestoRodjenja2" prefWidth="100.0" text="Mjesto rodjenja" />
+        </columns>
+      </TableView>
+      <Label layoutX="20.0" layoutY="22.0" text="Kandidati za nacelnika">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="20.0" layoutY="282.0" text="Kandidat za odbornika">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="obrisi" layoutX="408.0" layoutY="540.0" mnemonicParsing="false" onAction="#obrisi" prefHeight="25.0" prefWidth="72.0" text="Obrisi" />
+      <Button layoutX="492.0" layoutY="540.0" mnemonicParsing="false" onAction="#nazad" prefHeight="25.0" prefWidth="72.0" text="Odustani" />
+      <Button layoutX="316.0" layoutY="540.0" mnemonicParsing="false" onAction="#izmjeni" prefHeight="25.0" prefWidth="72.0" text="Izmjeni" />
+   </children>
+</AnchorPane>

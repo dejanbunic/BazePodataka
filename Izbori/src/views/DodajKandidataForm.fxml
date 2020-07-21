@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="334.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.DodajKandidataForm">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#36968d" height="280.0" layoutX="4.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="593.0" />
+      <TextField fx:id="ime" layoutX="35.0" layoutY="58.0" promptText="Ime" />
+      <TextField fx:id="prezime" layoutX="35.0" layoutY="108.0" promptText="Prezime" />
+      <TextField fx:id="mjestoRodjenja" layoutX="35.0" layoutY="160.0" promptText="Mjesto Rodjenja" />
+      <DatePicker fx:id="datumRodjenja" layoutX="35.0" layoutY="214.0" promptText="Datum Rodjenja" />
+      <ChoiceBox fx:id="politickaPartija" layoutX="376.0" layoutY="160.0" prefWidth="150.0" />
+      <Button layoutX="473.0" layoutY="290.0" mnemonicParsing="false" onAction="#dodajKandidata" prefHeight="39.0" prefWidth="107.0" text="Potvrdi" />
+      <Text layoutX="377.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Politicka partija" />
+      <ChoiceBox fx:id="tipKandidata" layoutX="376.0" layoutY="214.0" prefWidth="150.0" />
+      <Text layoutX="377.0" layoutY="213.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tip kandidata" />
+      <Button layoutX="14.0" layoutY="290.0" mnemonicParsing="false" onAction="#nazad" prefHeight="39.0" prefWidth="107.0" text="Odustani" />
+      <TextField fx:id="JMBG" layoutX="35.0" layoutY="14.0" promptText="JMBG" />
+      <ChoiceBox fx:id="grad" layoutX="376.0" layoutY="58.0" prefWidth="150.0" />
+      <Text layoutX="377.0" layoutY="52.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grad" />
+      <ChoiceBox fx:id="opstina" layoutX="376.0" layoutY="108.0" prefWidth="150.0" />
+      <Text layoutX="379.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Opstina" />
+   </children>
+</AnchorPane>

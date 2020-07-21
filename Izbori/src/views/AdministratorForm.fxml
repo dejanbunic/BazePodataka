@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="401.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.AdministratorForm">
+   <children>
+      <Button layoutX="106.0" layoutY="42.0" mnemonicParsing="false" onAction="#dodajKandidata" prefHeight="79.0" prefWidth="128.0" text="DodajKandidata" />
+      <Button layoutX="341.0" layoutY="42.0" mnemonicParsing="false" onAction="#obrisiKandidata" prefHeight="79.0" prefWidth="128.0" text="IzmjeniKandidata" />
+      <Button layoutX="106.0" layoutY="230.0" mnemonicParsing="false" onAction="#dodajOpstinu" prefHeight="79.0" prefWidth="128.0" text="DodajOpstinu" />
+      <Button layoutX="341.0" layoutY="230.0" mnemonicParsing="false" onAction="#izmjeniOpstinu" prefHeight="79.0" prefWidth="128.0" text="IzmjeniOpstinu" />
+   </children>
+</AnchorPane>

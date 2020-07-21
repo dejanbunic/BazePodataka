@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="531.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.PrikaziKandidateForm">
+   <children>
+      <TableView fx:id="userTable" layoutX="14.0" layoutY="10.0" prefHeight="323.0" prefWidth="505.0">
+        <columns>
+            <TableColumn fx:id="JMBG" prefWidth="116.0" text="JMBG" />
+          <TableColumn fx:id="ime" prefWidth="116.0" text="Ime" />
+          <TableColumn fx:id="prezime" prefWidth="117.0" text="Prezime" />
+            <TableColumn  fx:id="mjestoRodjenja" prefWidth="154.0" text="Mjesto Rodjenja" />
+        </columns>
+      </TableView>
+      <Button layoutX="319.0" layoutY="342.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="92.0" text="Nazad" />
+      <Button layoutX="427.0" layoutY="342.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="92.0" text="Obrisi" />
+   </children>
+</AnchorPane>

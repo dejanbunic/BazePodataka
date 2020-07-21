@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="381.0" prefWidth="550.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.GlasacIzborNacelnikaOpstineForm">
+    <children>
+        <TableView fx:id="userTable" prefHeight="356.0" prefWidth="550.0">
+            <columns>
+                <TableColumn fx:id="izaberi" prefWidth="150.0" text="Izaberi" />
+                <TableColumn fx:id="ime" prefWidth="150.0" text="Ime" />
+                <TableColumn fx:id="prezime" prefWidth="150.0" text="Prezime" />
+                <TableColumn fx:id="stranka" prefWidth="250.0" text="Stranka" />
+            </columns>
+        </TableView>
+        <Button layoutX="496.0" layoutY="356.0" mnemonicParsing="false" onAction="#potvrdi" text="Potvrdi" />
+      <Button layoutX="434.0" layoutY="356.0" mnemonicParsing="false" onAction="#nazad" text="Nazad" />
+    </children>
+
+</AnchorPane>
